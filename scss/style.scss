@@ -1,0 +1,105 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 1315px;
+    height: 600px;
+    background: url("img/backgr1");
+    //background-color: green;
+    border: 2px solid rgb(206, 14, 14);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+    color: aliceblue;
+    background-color: #121b1b;
+    border: 2px solid #356558;
+}
+
+.logo {
+    //width: 30%;
+    border: 2px solid #fff;
+}
+
+.header_wrapper {
+    position: relative;
+    // display: flex;
+    //justify-content: space-between;
+    width: 90%;
+    border: 2px solid #fff;
+}
+
+.header_text {
+    //margin-left: 15px;
+    //border: 2px solid #fff;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.menu {
+    position: absolute;
+    //width: 50%;
+    //margin-top: 15%;
+    bottom: 0px;
+    right: 10px;
+    font-size: 20px;
+    //border: 2px solid #fff;
+}
+
+.menu_wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.menu_items {
+    margin-left: 70px;
+    margin-bottom: 0px;
+    // border: 2px solid #fff;
+    // border-radius: 20px;
+    //padding: 10px ;
+}
+
+.main {}
+
+.block_top {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid aqua;
+}
+
+.top1,
+.top2,
+.top3 {
+    width: 30%;
+    border: 2px solid magenta;
+}
+
+.block_middle {}
+
+.block_bottom {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid aqua;
+}
+
+.bottom1,
+.bottom2,
+.bottom3 {
+    width: 30%;
+    border: 2px solid magenta;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #356558;
+    border: 2px solid green;
+}
